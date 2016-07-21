@@ -21,6 +21,8 @@
             Bind<IFilHandleren>().To<FilHandleren>();
             Bind<IFilLæser>().To<FilLæser>();
             Bind<IFilPlacering>().To<FilPlacering>();
+            Bind<IEmailForfatter>().To<EmailForfatter>();
+            Bind<IEmailHandleren>().To<EmailHandleren>();
 
         }
     }
