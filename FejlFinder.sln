@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FejlFinder", "FejlFinder\FejlFinder.csproj", "{E2EDFB8D-27F0-46CA-8A29-CC7E9049A29B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FejlFinderPrøver", "FejlFinderPrøver\FejlFinderPrøver.csproj", "{19F7C3C7-AB82-4D35-B59F-6838919453AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E2EDFB8D-27F0-46CA-8A29-CC7E9049A29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2EDFB8D-27F0-46CA-8A29-CC7E9049A29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2EDFB8D-27F0-46CA-8A29-CC7E9049A29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F7C3C7-AB82-4D35-B59F-6838919453AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F7C3C7-AB82-4D35-B59F-6838919453AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F7C3C7-AB82-4D35-B59F-6838919453AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F7C3C7-AB82-4D35-B59F-6838919453AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

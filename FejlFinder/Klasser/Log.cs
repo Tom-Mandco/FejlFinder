@@ -1,7 +1,7 @@
-﻿namespace FejlFinder.Classes
+﻿namespace FejlFinder.Klasser
 {
     using NLog;
-    using Interfaces;
+    using Grænseflader;
 
     public class Log : Logger, ILog
     {

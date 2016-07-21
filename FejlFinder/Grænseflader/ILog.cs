@@ -1,4 +1,4 @@
-﻿namespace FejlFinder.Interfaces
+﻿namespace FejlFinder.Grænseflader
 {
     public interface ILog
     {
