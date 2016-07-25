@@ -22,7 +22,7 @@
             var fråAdresse = "tsmith@mackays.co.uk";
             var lageme = LagemeSkaberen_ToString(); 
 
-            logger.Debug("Programme mislykket. Sende email ....");
+            logger.Debug("Program mislykket. Sende email ...");
 
             emailForfatter.SendeEmail(modtagere, fråAdresse, mislykketFilNavn, lageme, mislykketFilPath);
         }
