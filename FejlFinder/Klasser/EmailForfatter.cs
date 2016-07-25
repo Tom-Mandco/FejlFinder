@@ -57,7 +57,7 @@
                      FileAccess.Read,
                      FileShare.ReadWrite))
             {
-                var filNavn = Path.GetFileName(attachmentLocation);
+                var filNavn = Path.GetFileName(vedhæftetSti);
 
                 if (File.Exists(filNavn))
                 {

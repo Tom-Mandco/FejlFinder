@@ -72,6 +72,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationModule.cs" />
+    <Compile Include="Grænseflader\IApp.cs" />
+    <Compile Include="Klasser\App.cs" />
     <Compile Include="Klasser\EmailForfatter.cs" />
     <Compile Include="Klasser\EmailHandleren.cs" />
     <Compile Include="Klasser\FilHandleren.cs" />
@@ -79,7 +81,9 @@
     <Compile Include="Klasser\FilPlacering.cs" />
     <Compile Include="Klasser\Log.cs" />
     <Compile Include="CompositionRoot.cs" />
-    <Compile Include="AppForm.cs" />
+    <Compile Include="AppForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AppForm.Designer.cs">
       <DependentUpon>AppForm.cs</DependentUpon>
     </Compile>
@@ -90,6 +94,7 @@
     <Compile Include="Grænseflader\IFilLæser.cs" />
     <Compile Include="Grænseflader\IFilPlacering.cs" />
     <Compile Include="Grænseflader\ILog.cs" />
+    <Compile Include="Modeller\LogFil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AppForm.resx">
       <DependentUpon>AppForm.cs</DependentUpon>
@@ -129,9 +134,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modeller\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -23,7 +23,6 @@
             Bind<IFilPlacering>().To<FilPlacering>();
             Bind<IEmailForfatter>().To<EmailForfatter>();
             Bind<IEmailHandleren>().To<EmailHandleren>();
-
         }
     }
 }

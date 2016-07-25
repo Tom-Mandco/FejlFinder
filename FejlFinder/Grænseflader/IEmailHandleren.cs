@@ -2,6 +2,6 @@
 {
     public interface IEmailHandleren
     {
-        void SendeMislykketLog_TilEmail();
+        void SendeMislykketLog_TilEmail(string mislykketFilNavn, string mislykketFilPath);
     }
 }
